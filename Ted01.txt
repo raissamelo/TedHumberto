@@ -1,0 +1,17 @@
+<html>
+         <head>
+              <title>BLUE GALERY</title>
+         </head>
+        
+         <body> 
+            
+<center><p><h1>Lighting Comet</h1></p></center>
+            <center><img src="blue.png" /></center>
+            
+
+<h1><center><a href="pagina2.html"target="_blank"><img src="Pegasusblue.png"></a></center></h1>	
+
+
+
+         </body>
+</html>
