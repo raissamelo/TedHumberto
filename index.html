@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+       <meta charset="UTF-8"/>
+       <title>Cadastro de Clientes</title>
+       <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <p id="box">Cadastro Social</p>
+  <div id="titulo">
+    <h2>Preencha Com Suas Informações Pessoais</h2>
+  </div>
+
+  <div id="geral"> 
+  <form>
+
+
+  <div id="nome">
+	  <label for="name">Nome</label><input type="text" id="name" placeholder="Seu nome completo"><br></div>
+
+  <div id="cpf">
+	  <label for="cpf">CPF</label><input type="text" id="cpf" placeholder="000.000.000-00"></div>
+
+	<div id="data">
+		<label for="date_nascimento">Data de Nascimento</label><br><input type="date" id="data_nascimento"/></div>
+
+  <div id="sexo">
+	  <label for="sex">Sexo</label><br>
+    <input type="radio" id="sexoM" value="M">Masculino</label>
+	  <input type="radio" id="sexoF" value="F">Feminino</label></div><br>
+
+  <div id="situacao">
+	  <label for="estado_civil">Estado Civil</label><br><select name="estado_civil">
+    <option value="so">Solteiro(a)</option>
+    <option value="ca">Casado(a)</option>
+	  <option value="di">Divorciado(a)</option></select></div>
+
+  <div id="renda">
+	  <label for="renda">Renda Mensal R$</label><input type="text" id="renda" placeholder="0.00"></div>
+
+	<div id="endereco">
+		<h3>Endereço</h3></div><br>
+
+	<div id="rua">
+		<label for="Logradouro">Logradouro</label><br><input type="text" id="Logradouro" placeholder="Logradouro"></div>
+
+	<div id="numero">
+		<label for="numero">Numero</label><br><input type="numero" id="numero" placeholder="N°"></div>
+
+	<div id="complemento">
+		<label for="complemento">Complemento</label><br><input type="text" id="complemento" placeholder="Complemento"><br></div><br>
+
+	<div id="estado">
+	<label>Estado</label><br><select name="estado" id="estado">
+    <option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AM">Amazonas</option>
+    <option value="AP">Amapá</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantis</option>
+	</select></div>
+
+	<div id="cidade">
+		<label for="cidade">Cidade</label><br><input type="text" id="cidade" placeholder="Cidade"></div><br>
+
+	<button type="submit" name="enviar">Cadastro</button>
+	<button type="reset" name="reset">Limpar</button></div>
+	</select>
+
+    </form>
+    </body>
+</html>

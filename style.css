@@ -1,0 +1,224 @@
+body {
+    background-color: #E8E8E8;
+}
+#box {
+    color: #000000;;
+    margin: 110px 30px 40px 0px ;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+h2 {
+    margin: auto;
+}
+#titulo {
+    color: #FFFFFF;
+    padding: 21px;
+    margin: auto;
+    width: 900px;
+    background-color: #000000;
+    font-style: normal;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 10px 10px 0px 0px;
+}
+#geral {
+    border-style: solid;
+    border-width: 2px;
+    background-color: #FFFFFF;
+    height: 450px;
+    width: 900px;
+    margin: auto;
+    padding: 19px;
+}
+#nome {
+    padding: 1px;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #000000;
+}
+#nome input {
+    margin: 5px 0px;
+    width: 100%;
+    margin: 10px 2px;
+    border-radius: 5px;
+    height: 25px;
+}
+#cpf {
+    margin: 1% 0% 0% 0%;
+    padding: 1px;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #000000;
+}
+#cpf input{
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 30%;
+    height: 25px;
+}
+#data {
+    margin: -6.5% 0% 0% 39%;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #000000;
+}
+#data input {
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 45%;
+    height: 25px;
+}
+#sexo {
+    margin: -6% 0% 0% 71%;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #000000; 
+}
+#sexo input {
+    margin: 6px 0px;
+}
+#situacao {
+    margin: 3% 0% 0% 0%;
+    padding: 1px;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000000;
+
+}
+#situacao select {
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 45%;
+    height: 29px;
+}
+#renda {
+    margin: -6% 0% 0% 49%;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #000000;
+}
+#renda input {
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+}
+#endereco {
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+#endereco input {
+     width: 100%;
+     margin: 10px 2px;
+     border-radius: 5px;
+     height: 25px;
+}
+#rua {
+    margin: 0.5% 0% 0% 0%;
+    padding: 1px;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+#rua input {
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 45%;
+    height: 25px;
+}
+#numero {
+    margin: -6.5% 0% 0% 49%;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #000000;
+}
+#numero input {
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 40%;
+    height: 25px;
+}
+#complemento {
+    margin: -6.5% 0% 0% 75%;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #000000;
+    
+}
+#complemento input {
+    margin: 5px 0px; 
+    border-radius: 5px;
+    width: 99%;
+    height: 25px;
+}
+#estado {
+    margin: -1% 0% 0% 0%;
+    padding: 1px;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000000;
+
+}
+#estado select {
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 46%;
+    height: 29px;
+
+}
+#cidade {
+    margin: -6% 0% 0% 49%;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #000000; 
+}
+#cidade input {
+    border-radius: 5px;
+    width: 100%;
+    margin: 4px 2px;
+    height: 25px;
+}
+#selecao {
+    margin: 1.5% 0% 0% -2.2%;
+    padding: 20px;
+    height: 9px;
+    width: 900px;
+    background-color: #000000;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+#selecao button {
+    border-radius: 5px;
+    margin: -2% 0.9% 0% 0%;
+
+}
